@@ -1,0 +1,15 @@
+{
+  "name": "steam-pc-check",
+  "version": "0.1.0",
+  "description": "Tampermonkey userscript: compares your PC with Steam game system requirements and shows an estimated FPS forecast.",
+  "private": true,
+  "license": "MIT",
+  "author": "Frolov Andrey",
+  "scripts": {
+    "check": "node --check steam-pc-check.user.js",
+    "test": "npm run check && node tests/run-tests.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
